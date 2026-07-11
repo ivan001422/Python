@@ -172,7 +172,7 @@ class Sample:
     def classify(self, label: str) -> None:
         self.classification = label
 
-    def matches(self) -> bool:   # исправлено имя метода
+    def matches(self) -> bool:  
         return self.classification == self.species
 
 
